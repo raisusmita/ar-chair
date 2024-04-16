@@ -1,0 +1,68 @@
+.content h3 {
+    margin: 0;
+    padding: 5px;
+    font-family: 'ITC Bauhaus Light';
+    color: #22922c;
+}
+
+.colors-container{
+    position: absolute;
+    right: 10px;
+    top: 10px;   
+    margin: 0 auto;
+    font-weight: 100;
+    box-shadow: 0 0 16px rgb(38, 86, 61);
+    border-radius: 10px;
+}
+
+.colors-container.hidden {
+    display: none;
+}
+
+.button-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+button {
+  border: none;
+  padding: 5px;
+  margin: 8px;
+  width: 40px;
+  height: 25px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.textures-container{
+    position: absolute;
+    left: 10px;
+    top: 10px;   
+    margin: 0 auto;
+    font-weight: 100;
+    box-shadow: 0 0 16px rgb(38, 86, 61);
+    border-radius: 10px;
+}
+.textures-container.hidden{
+    display: none;
+}
+
+.figures {
+    display: flex;
+    flex-direction: column;
+}
+
+figure {
+    padding: 5px;
+    margin: 8px;
+    width: 40px;
+    height: 25px;
+    cursor: pointer;
+}
+figure.reflection {
+    background-color: rgb(38, 86, 61);
+}
+img{
+    width: 100%;
+    height: 25px;
+    border-radius: 10px;
+}
